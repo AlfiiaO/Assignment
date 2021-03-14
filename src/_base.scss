@@ -1,0 +1,55 @@
+
+
+body                  {font-family: 'Roboto';
+                        font-size:1em;
+                        line-height:2em;
+                        background:url(#{$img}bg.gif)$main-color repeat-x;
+                        margin:0;}
+                        
+
+main                {width:940px;margin:0 auto;padding:0 10px;}
+
+
+/* HEADER */
+header                      {width:inherit;clear:both;text-align:center;padding-top:40px;
+    img {max-width:100%;height:auto;}
+    }
+header h1                   {color:$color;font-weight:100;font-size:4em;line-height:0;}
+header h2                   {color: $main-color;font-weight:900;font-size:2.5em;line-height:0;margin-bottom:$size + 20px;}
+header h3                   {color:$h3-color;font-weight:400;font-size:2em;line-height:0;margin-bottom:$size;}
+
+
+
+/* CONTENT */
+#headline                   {width:100%;height:130px;background:$background-color;text-align:center;margin:0 auto;
+   h1 {color:$main-color;font-size:2.5em;font-weight:100;padding-top:50px;}}
+
+#content                    {width:940px;margin:20px auto;
+   h3 {color: $h3-color;font-size:2em;font-weight:400;}
+
+   #products {width:460px;float:left;
+   img {float:left;margin-right:20px;}
+   article  {margin-bottom:$size - 10px;}
+    h4  {line-height:1em;}
+   }
+   #testimonials      {width:460px;float:right;}
+   }
+
+
+
+
+
+/* FOOTER */
+.greybar                    {width:100%;height:90px;background:$greyBar-color;clear:both;padding-top:30px;}
+footer                      {width:100%;height:120px;background:$footer-color;text-align:center;color:$main-color;padding-top:50px;}                                    
+.social-media               { margin:0 auto;width:$width * 55;
+   div {float:left;margin-right:5px;}
+   .one       {background:url(#{$img}social-media.png) 0 0;}
+   .two 	    {background:url(#{$img}social-media.png) -38px 0;}
+   .three     {background:url(#{$img}social-media.png) -76px 0;}
+   .four 	    {background:url(#{$img}social-media.png) -114px 0;}
+   a {display:block;width:36px;height:36px;text-indent:-9999px;}
+   }
+
+  
+ 
